@@ -1,0 +1,10 @@
+To do:
+
+-figure out a way around the connector height issue -Dylan
+-pull P2 JTAG straight through -Hunter
+-make sure main 26 pins headers are electrically correct
+-add 2 barometers -Hunter
+-confirm current requirements to see if we need our own regulator -Hunter
+-swap out atmega328 for atmega32u4 -Dylan
+-break out everything for motors, recievers, etc -Dylan
+-acquire good mechanical data -Hunter

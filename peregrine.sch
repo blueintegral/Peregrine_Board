@@ -3229,11 +3229,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <text x="-1.27" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
-</package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="21">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
@@ -3706,11 +3701,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pin name="NC@5" x="-15.24" y="2.54" length="middle"/>
 <pin name="DRDY" x="15.24" y="-12.7" length="middle" rot="R180"/>
 <pin name="SDA" x="15.24" y="0" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CREATIVE_COMMONS">
-<text x="0" y="5.08" size="1.778" layer="95">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="95">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="0" y="0" size="1.778" layer="95">Design by:</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -8464,18 +8454,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="CREATIVE_COMMONS">
-<gates>
-<gate name="G$1" symbol="CREATIVE_COMMONS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CREATIVE_COMMONS">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="OSHW-LOGO">
 <description>&lt;b&gt;Open Source Hardware Logo&lt;/b&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW</description>
 <gates>
@@ -8591,7 +8569,6 @@ Various fiducial points for machine vision alignment.</description>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun" deviceset="ADXL345" device=""/>
 <part name="U$1" library="SparkFun" deviceset="HMC5883L" device="SMD"/>
-<part name="U$2" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
 <part name="U$4" library="SparkFun" deviceset="OSHW-LOGO" device="L"/>
 <part name="C22" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="FRAME2" library="SparkFun" deviceset="FRAME-LETTER" device=""/>
@@ -8632,7 +8609,6 @@ Various fiducial points for machine vision alignment.</description>
 <part name="P+10" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP10" library="SparkFun" deviceset="M02" device="PTH" value="JST_Horizontal"/>
-<part name="U$3" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
 <part name="JP11" library="abes" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="JP12" library="abes" deviceset="FIDUCIAL" device="1X2.5"/>
 </parts>
@@ -8697,7 +8673,6 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="GND2" gate="1" x="218.44" y="127"/>
 <instance part="U2" gate="G$1" x="76.2" y="134.62"/>
 <instance part="U$1" gate="G$1" x="68.58" y="53.34"/>
-<instance part="U$2" gate="G$1" x="12.7" y="10.16"/>
 <instance part="U$4" gate="G$1" x="210.82" y="33.02"/>
 </instances>
 <busses>
@@ -9004,7 +8979,6 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="P+10" gate="G$1" x="88.9" y="149.86"/>
 <instance part="GND10" gate="1" x="88.9" y="137.16"/>
 <instance part="JP10" gate="G$1" x="22.86" y="73.66"/>
-<instance part="U$3" gate="G$1" x="15.24" y="12.7"/>
 <instance part="JP11" gate="G$1" x="152.4" y="30.48"/>
 <instance part="JP12" gate="G$1" x="154.94" y="30.48"/>
 </instances>
