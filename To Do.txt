@@ -8,3 +8,16 @@ To do:
 -swap out atmega328 for atmega32u4 -Dylan
 -break out everything for motors, recievers, etc -Dylan
 -acquire good mechanical data -Hunter
+
+Dylan:
+
+-Fiddle with vias for ground.
+-Pi gnd -> Our ground
+-pi +5v -> +5v
+
+Hunter:
+-Silkscreen
+-Confirm Mech.
+-Serial Directionality Check
+-Ground Copper
+-Pressure sensor mech.
