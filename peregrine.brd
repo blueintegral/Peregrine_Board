@@ -2596,91 +2596,245 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="SparkFun" package="QFN-24" value="ITG-3200" x="35.179" y="25.3365" rot="R270"/>
-<element name="U2" library="SparkFun" package="LGA14" value="ADXL345" x="34.7345" y="14.7955" rot="R90"/>
-<element name="C1" library="SparkFun" package="0402-CAP" value="0.1uF" x="34.2265" y="8.255" rot="R270"/>
-<element name="C2" library="SparkFun" package="0402-CAP" value="0.1uF" x="35.8775" y="8.255" rot="R270"/>
-<element name="C6" library="SparkFun" package="0402-CAP" value="2.2nF" x="38.1" y="22.098" rot="R270"/>
-<element name="C7" library="SparkFun" package="0402-CAP" value="0.1uF" x="31.9405" y="21.209" rot="R90"/>
-<element name="C8" library="SparkFun" package="0402-CAP" value="10nF" x="29.845" y="22.2885" rot="MR270"/>
-<element name="C9" library="SparkFun" package="0402-CAP" value="0.1uF" x="28.448" y="22.2885" rot="MR270"/>
-<element name="C10" library="SparkFun" package="0402-CAP" value="0.1uF" x="29.1465" y="24.892" rot="MR180"/>
-<element name="R1" library="SparkFun" package="0402-RES" value="4.7K" x="42.1005" y="49.403" rot="R270"/>
-<element name="R2" library="SparkFun" package="0402-RES" value="4.7K" x="40.8305" y="46.863" rot="R180"/>
-<element name="C12" library="SparkFun" package="0402-CAP" value="4.7uF" x="29.1465" y="26.924" rot="MR180"/>
-<element name="C11" library="SparkFun" package="0402-CAP" value="4.7uF" x="19.304" y="24.892" rot="MR270"/>
-<element name="U$2" library="SparkFun" package="16LPCC" value="HMC5883LSMD" x="42.8625" y="22.0345"/>
-<element name="C3" library="SparkFun" package="0402-CAP" value="4.7uF" x="46.863" y="19.4945" rot="MR270"/>
-<element name="C4" library="SparkFun" package="0402-CAP" value="0.22uF" x="46.863" y="22.733" rot="R90"/>
-<element name="C5" library="SparkFun" package="0402-CAP" value="0.1uF" x="40.3225" y="15.875" rot="MR90"/>
-<element name="GPS" library="SparkFun" package="EM408_CON" value="EM408_CON" x="51.7525" y="14.732" rot="R90"/>
-<element name="REC_POWER" library="SparkFun" package="1X02" value="" x="31.115" y="53.975" rot="R180"/>
-<element name="REC" library="SparkFun" package="1X06_LOCK" value="" x="48.006" y="53.9115" rot="R180"/>
-<element name="ICSP" library="SmartPrj" package="2X03" value="ICSP" x="3.175" y="40.4495" rot="R270"/>
-<element name="ON" library="led" package="CHIPLED_0805" value="Green" x="19.6215" y="22.7965"/>
-<element name="C21" library="SmartPrj" package="C0603-ROUND" value="100n" x="4.064" y="33.909" rot="R90"/>
-<element name="F1" library="rcl" package="L1812" value="MF-MSMF050-2 500mA" x="8.3185" y="25.019" rot="R180"/>
-<element name="L" library="led" package="CHIPLED_0805" value="Yellow" x="21.336" y="22.7965"/>
-<element name="Z1" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="10.3505" y="14.732"/>
-<element name="Z2" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="10.3505" y="21.5265"/>
-<element name="L2" library="wuerth-elektronik" package="0805" value="MH2029-300Y" x="10.287" y="12.8905"/>
-<element name="R5" library="SmartPrj" package="R0603-ROUND" value="1M" x="26.162" y="36.703" rot="R270"/>
-<element name="RN3" library="resistor-dil" package="CAY16" value="22R" x="10.033" y="18.034" rot="R90"/>
-<element name="C23" library="SmartPrj" package="C0603-ROUND" value="1uF" x="8.6995" y="31.877" rot="MR270"/>
-<element name="R6" library="SmartPrj" package="R0402" value="NM" x="7.112" y="33.02" rot="R180"/>
-<element name="R7" library="SmartPrj" package="R0402" value="NM" x="7.112" y="30.861"/>
-<element name="L1" library="wuerth-elektronik" package="0805" value="MH2029-300Y" x="10.287" y="29.464" rot="R90"/>
-<element name="C24" library="SmartPrj" package="C0603-ROUND" value="1uF" x="24.511" y="43.053"/>
-<element name="C26" library="SmartPrj" package="C0603-ROUND" value="100n" x="16.51" y="4.953" rot="R90"/>
-<element name="U5" library="SmartPrj" package="TQFP44-PAD" value="ATMEGA32U4-XUAU" x="17.653" y="37.211" rot="R90"/>
-<element name="C27" library="rcl" package="SMC_B" value="10u" x="12.8905" y="9.525" rot="R180"/>
-<element name="C28" library="SmartPrj" package="C0603-ROUND" value="100n" x="12.8905" y="6.0325"/>
-<element name="RESET" library="SmartPrj" package="TS42" value="TS42" x="3.81" y="5.842" rot="R270"/>
-<element name="C31" library="SmartPrj" package="C0603-ROUND" value="22p" x="29.5275" y="32.1945"/>
-<element name="C32" library="SmartPrj" package="C0603-ROUND" value="22p" x="29.5275" y="39.116"/>
-<element name="RN2" library="resistor-dil" package="CAY16" value="1K" x="22.098" y="18.161"/>
-<element name="TX" library="led" package="CHIPLED_0805" value="Yellow" x="23.622" y="22.7965"/>
-<element name="RX" library="led" package="CHIPLED_0805" value="Yellow" x="25.3365" y="22.7965"/>
-<element name="Y1" library="SmartPrj" package="CRYSTAL-3.2-2.5" value="16MHz KX-7" x="29.5275" y="35.687" rot="R270"/>
-<element name="IC2" library="linear" package="MSOP08" value="LMV358IDGKR" x="16.1925" y="17.907" rot="R180"/>
-<element name="D2" library="diode" package="MINIMELF" value="CD1206-S01575" x="9.652" y="3.302" rot="R270"/>
-<element name="J1" library="SmartPrj" package="CON2_USB_MICRO_B_AT" value="USB MICRO" x="1.4605" y="17.907" rot="R270"/>
+<element name="U1" library="SparkFun" package="QFN-24" value="ITG-3200" x="35.179" y="25.3365" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.967" y="27.565" size="0.8128" layer="25"/>
+</element>
+<element name="U2" library="SparkFun" package="LGA14" value="ADXL345" x="34.7345" y="14.7955" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.9565" y="17.526" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C1" library="SparkFun" package="0402-CAP" value="0.1uF" x="34.2265" y="8.255" smashed="yes" rot="R270">
+<attribute name="NAME" x="34.798" y="8.5725" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="C2" library="SparkFun" package="0402-CAP" value="0.1uF" x="35.8775" y="8.255" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.576" y="8.509" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="C6" library="SparkFun" package="0402-CAP" value="2.2nF" x="38.1" y="22.098" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.084" y="22.5425" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="C7" library="SparkFun" package="0402-CAP" value="0.1uF" x="31.9405" y="21.209" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.02" y="20.8915" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="C8" library="SparkFun" package="0402-CAP" value="10nF" x="29.845" y="22.2885" smashed="yes" rot="MR270">
+<attribute name="NAME" x="29.464" y="20.701" size="0.4064" layer="26" rot="MR180"/>
+</element>
+<element name="C9" library="SparkFun" package="0402-CAP" value="0.1uF" x="28.448" y="22.2885" smashed="yes" rot="MR270">
+<attribute name="NAME" x="28.067" y="20.701" size="0.4064" layer="26" rot="MR180"/>
+</element>
+<element name="C10" library="SparkFun" package="0402-CAP" value="0.1uF" x="29.1465" y="24.892" smashed="yes" rot="MR180">
+<attribute name="NAME" x="29.083" y="24.3205" size="0.4064" layer="26" rot="MR180"/>
+</element>
+<element name="R1" library="SparkFun" package="0402-RES" value="4.7K" x="42.1005" y="49.403" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.0845" y="49.8475" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="R2" library="SparkFun" package="0402-RES" value="4.7K" x="40.8305" y="46.863" smashed="yes" rot="R180">
+<attribute name="NAME" x="41.275" y="46.2915" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C12" library="SparkFun" package="0402-CAP" value="4.7uF" x="29.1465" y="26.924" smashed="yes" rot="MR180">
+<attribute name="NAME" x="28.6385" y="26.289" size="0.4064" layer="26" rot="MR180"/>
+</element>
+<element name="C11" library="SparkFun" package="0402-CAP" value="4.7uF" x="19.304" y="24.892" smashed="yes" rot="MR270">
+<attribute name="NAME" x="18.7325" y="25.527" size="0.4064" layer="26" rot="MR270"/>
+</element>
+<element name="U$2" library="SparkFun" package="16LPCC" value="HMC5883LSMD" x="42.8625" y="22.0345" smashed="yes">
+<attribute name="NAME" x="39.751" y="23.6855" size="0.6096" layer="25"/>
+</element>
+<element name="C3" library="SparkFun" package="0402-CAP" value="4.7uF" x="46.863" y="19.4945" smashed="yes" rot="MR270">
+<attribute name="NAME" x="47.9425" y="19.8755" size="0.4064" layer="26" rot="MR270"/>
+</element>
+<element name="C4" library="SparkFun" package="0402-CAP" value="0.22uF" x="46.863" y="22.733" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.879" y="22.4155" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="C5" library="SparkFun" package="0402-CAP" value="0.1uF" x="40.3225" y="15.875" smashed="yes" rot="MR90">
+<attribute name="NAME" x="41.021" y="14.986" size="0.4064" layer="26" rot="MR90"/>
+</element>
+<element name="GPS" library="SparkFun" package="EM408_CON" value="EM408_CON" x="51.7525" y="14.732" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.4825" y="13.462" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="REC_POWER" library="SparkFun" package="1X02" value="" x="31.115" y="53.975" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.4137" y="52.4002" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="32.385" y="57.15" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="REC" library="SparkFun" package="1X06_LOCK" value="" x="48.006" y="53.9115" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.418" y="52.5145" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="49.276" y="57.2135" size="1.27" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="ICSP" library="SmartPrj" package="2X03" value="ICSP" x="3.175" y="40.4495" smashed="yes" rot="R270">
+<attribute name="VALUE" x="6.223" y="42.799" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="ON" library="led" package="CHIPLED_0805" value="Green" x="19.6215" y="22.7965" smashed="yes">
+<attribute name="NAME" x="20.0025" y="24.5745" size="0.8128" layer="25" rot="R90"/>
+</element>
+<element name="C21" library="SmartPrj" package="C0603-ROUND" value="100n" x="4.064" y="33.909" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.921" y="32.9565" size="0.8128" layer="25" rot="R90"/>
+</element>
+<element name="F1" library="rcl" package="L1812" value="MF-MSMF050-2 500mA" x="8.3185" y="25.019" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.207" y="24.13" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="L" library="led" package="CHIPLED_0805" value="Yellow" x="21.336" y="22.7965" smashed="yes">
+<attribute name="NAME" x="21.9075" y="25.2095" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="Z1" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="10.3505" y="14.732" smashed="yes">
+<attribute name="NAME" x="9.8665" y="15.2875" size="0.8128" layer="25"/>
+</element>
+<element name="Z2" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="10.3505" y="21.5265" smashed="yes">
+<attribute name="NAME" x="9.9935" y="22.1455" size="1.016" layer="25"/>
+</element>
+<element name="L2" library="wuerth-elektronik" package="0805" value="MH2029-300Y" x="10.287" y="12.8905" smashed="yes">
+<attribute name="NAME" x="10.16" y="11.557" size="0.6096" layer="25"/>
+</element>
+<element name="R5" library="SmartPrj" package="R0603-ROUND" value="1M" x="26.162" y="36.703" smashed="yes" rot="R270">
+<attribute name="NAME" x="25.146" y="38.354" size="1.27" layer="25"/>
+</element>
+<element name="RN3" library="resistor-dil" package="CAY16" value="22R" x="10.033" y="18.034" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.6995" y="16.7005" size="1.016" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="C23" library="SmartPrj" package="C0603-ROUND" value="1uF" x="8.6995" y="31.877" smashed="yes" rot="MR270">
+<attribute name="NAME" x="10.541" y="32.893" size="0.8128" layer="26" rot="MR270"/>
+</element>
+<element name="R6" library="SmartPrj" package="R0402" value="NM" x="7.112" y="33.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.874" y="32.385" size="0.8128" layer="25" rot="R180"/>
+</element>
+<element name="R7" library="SmartPrj" package="R0402" value="NM" x="7.112" y="30.861" smashed="yes">
+<attribute name="NAME" x="6.4135" y="29.4005" size="0.8128" layer="25"/>
+</element>
+<element name="L1" library="wuerth-elektronik" package="0805" value="MH2029-300Y" x="10.287" y="29.464" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.7475" y="29.1465" size="0.6096" layer="25" rot="R90"/>
+</element>
+<element name="C24" library="SmartPrj" package="C0603-ROUND" value="1uF" x="24.511" y="43.053" smashed="yes">
+<attribute name="NAME" x="22.86" y="44.196" size="1.27" layer="25"/>
+</element>
+<element name="C26" library="SmartPrj" package="C0603-ROUND" value="100n" x="16.51" y="4.953" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.907" y="0.8255" size="1.016" layer="25" rot="R90"/>
+</element>
+<element name="U5" library="SmartPrj" package="TQFP44-PAD" value="ATMEGA32U4-XUAU" x="17.653" y="37.211" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.3205" y="32.258" size="1.016" layer="25" rot="R180"/>
+</element>
+<element name="C27" library="rcl" package="SMC_B" value="10u" x="12.8905" y="9.525" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.573" y="11.1125" size="1.016" layer="25"/>
+</element>
+<element name="C28" library="SmartPrj" package="C0603-ROUND" value="100n" x="12.8905" y="6.0325" smashed="yes">
+<attribute name="NAME" x="14.097" y="4.8895" size="1.016" layer="25" rot="R180"/>
+</element>
+<element name="RESET" library="SmartPrj" package="TS42" value="TS42" x="3.81" y="5.842" smashed="yes" rot="R270">
+<attribute name="NAME" x="7.184" y="8.9055" size="1.016" layer="21" rot="R270"/>
+</element>
+<element name="C31" library="SmartPrj" package="C0603-ROUND" value="22p" x="29.5275" y="32.1945" smashed="yes">
+<attribute name="NAME" x="27.94" y="29.7815" size="1.27" layer="25"/>
+</element>
+<element name="C32" library="SmartPrj" package="C0603-ROUND" value="22p" x="29.5275" y="39.116" smashed="yes">
+<attribute name="NAME" x="27.8765" y="40.1955" size="1.27" layer="25"/>
+</element>
+<element name="RN2" library="resistor-dil" package="CAY16" value="1K" x="22.098" y="18.161" smashed="yes">
+<attribute name="NAME" x="20.574" y="16.0655" size="0.8128" layer="25" ratio="10"/>
+</element>
+<element name="TX" library="led" package="CHIPLED_0805" value="Yellow" x="23.622" y="22.7965" smashed="yes">
+<attribute name="NAME" x="24.3205" y="24.892" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="RX" library="led" package="CHIPLED_0805" value="Yellow" x="25.3365" y="22.7965" smashed="yes">
+<attribute name="NAME" x="26.035" y="24.765" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="Y1" library="SmartPrj" package="CRYSTAL-3.2-2.5" value="16MHz KX-7" x="29.5275" y="35.687" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.1275" y="37.337" size="1.27" layer="25" rot="R270"/>
+</element>
+<element name="IC2" library="linear" package="MSOP08" value="LMV358IDGKR" x="16.1925" y="17.907" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.335" y="18.9865" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="D2" library="diode" package="MINIMELF" value="CD1206-S01575" x="9.652" y="3.302" smashed="yes" rot="R270">
+<attribute name="NAME" x="7.5565" y="2.667" size="1.016" layer="25" rot="R270"/>
+</element>
+<element name="J1" library="SmartPrj" package="CON2_USB_MICRO_B_AT" value="USB MICRO" x="1.4605" y="17.907" smashed="yes" rot="R270"/>
 <element name="U$3" library="SparkFun" package="BMP085" value="BMP085" x="28.1305" y="15.4305"/>
-<element name="U$4" library="SparkFun" package="BMP085" value="BMP085" x="40.259" y="15.5575" rot="R270"/>
-<element name="C13" library="SparkFun" package="0402-CAP" value="0.1uF" x="31.369" y="11.3665" rot="MR90"/>
-<element name="C14" library="SparkFun" package="0402-CAP" value="0.1uF" x="28.1305" y="15.8115" rot="MR90"/>
-<element name="JTAG_THRU" library="SparkFun" package="1X08_LOCK" value="" x="46.2915" y="2.6035" rot="R180"/>
-<element name="SJ5" library="jumper" package="SJ" value="" x="48.0695" y="51.2445" rot="R180"/>
-<element name="SJ6" library="jumper" package="SJ" value="" x="48.0695" y="48.9585" rot="R180"/>
-<element name="JP5" library="pinhead" package="2X13" value="" x="52.832" y="38.7985" rot="R270"/>
-<element name="JP1" library="pinhead" package="2X03" value="" x="13.335" y="51.4985" rot="R90"/>
-<element name="JP2" library="pinhead" package="2X03" value="" x="8.255" y="51.4985" rot="R90"/>
+<element name="U$4" library="SparkFun" package="BMP085" value="BMP085" x="40.259" y="15.5575" smashed="yes" rot="R270"/>
+<element name="C13" library="SparkFun" package="0402-CAP" value="0.1uF" x="31.369" y="11.3665" smashed="yes" rot="MR90">
+<attribute name="NAME" x="32.0675" y="10.4775" size="0.4064" layer="26" rot="MR90"/>
+</element>
+<element name="C14" library="SparkFun" package="0402-CAP" value="0.1uF" x="28.1305" y="15.8115" smashed="yes" rot="MR90">
+<attribute name="NAME" x="28.829" y="14.9225" size="0.4064" layer="26" rot="MR90"/>
+</element>
+<element name="JTAG" library="SparkFun" package="1X08_LOCK" value="" x="46.2915" y="2.6035" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.7487" y="5.6642" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="47.5615" y="5.7785" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="SJ5" library="jumper" package="SJ" value="" x="48.0695" y="51.2445" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.0375" y="51.6255" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="47.6694" y="51.2445" size="0.02" layer="27" rot="R180"/>
+</element>
+<element name="SJ6" library="jumper" package="SJ" value="" x="48.0695" y="48.9585" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.1645" y="49.4665" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="47.6694" y="48.9585" size="0.02" layer="27" rot="R180"/>
+</element>
+<element name="JP5" library="pinhead" package="2X13" value="" x="52.832" y="38.7985" smashed="yes" rot="R270">
+<attribute name="VALUE" x="48.387" y="55.3085" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="JP1" library="pinhead" package="2X03" value="" x="13.335" y="51.4985" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="47.6885" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="JP2" library="pinhead" package="2X03" value="" x="8.255" y="51.4985" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12.7" y="47.6885" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="JP4" library="pinhead" package="2X03" value="" x="3.175" y="51.4985" smashed="yes" rot="R90">
-<attribute name="NAME" x="0" y="47.6885" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="7.62" y="47.6885" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="SJ7" library="SparkFun" package="SJ_3" value="" x="47.4345" y="14.859" rot="R180"/>
-<element name="SJ8" library="SparkFun" package="SJ_3" value="" x="47.4345" y="17.272" rot="R180"/>
-<element name="Q10" library="transistor-small-signal" package="SOT23" value="BSS123" x="38.862" y="34.036" rot="R90"/>
-<element name="Q11" library="transistor-small-signal" package="SOT23" value="BSS123" x="38.862" y="37.4015" rot="R90"/>
-<element name="R66" library="SparkFun" package="0603-RES" value="10k" x="43.2435" y="34.036"/>
-<element name="R67" library="SparkFun" package="0603-RES" value="10k" x="43.2435" y="37.4015"/>
-<element name="R68" library="SparkFun" package="0603-RES" value="10k" x="34.671" y="37.4015" rot="R180"/>
-<element name="R69" library="SparkFun" package="0603-RES" value="10k" x="34.671" y="34.036" rot="R180"/>
-<element name="IC1" library="linear-technology" package="SOT223" value="" x="23.622" y="22.7965" rot="MR180">
+<element name="SJ7" library="SparkFun" package="SJ_3" value="" x="47.4345" y="14.859" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.212" y="14.7955" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="47.5346" y="14.859" size="0.02" layer="27" rot="R180"/>
+<attribute name="VALUE" x="48.7045" y="16.764" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="SJ8" library="SparkFun" package="SJ_3" value="" x="47.4345" y="17.272" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.212" y="17.3355" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="47.5346" y="17.272" size="0.02" layer="27" rot="R180"/>
+<attribute name="VALUE" x="48.7045" y="19.177" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="Q10" library="transistor-small-signal" package="SOT23" value="BSS123" x="38.862" y="34.036" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.195" y="34.9885" size="0.8128" layer="25" rot="R270"/>
+</element>
+<element name="Q11" library="transistor-small-signal" package="SOT23" value="BSS123" x="38.862" y="37.4015" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.0205" y="36.322" size="0.8128" layer="25" rot="R90"/>
+</element>
+<element name="R66" library="SparkFun" package="0603-RES" value="10k" x="43.2435" y="34.036" smashed="yes">
+<attribute name="NAME" x="42.8625" y="32.5755" size="0.4064" layer="25" font="vector"/>
+</element>
+<element name="R67" library="SparkFun" package="0603-RES" value="10k" x="43.2435" y="37.4015" smashed="yes">
+<attribute name="NAME" x="42.799" y="38.481" size="0.4064" layer="25" font="vector"/>
+</element>
+<element name="R68" library="SparkFun" package="0603-RES" value="10k" x="34.671" y="37.4015" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.7025" y="37.5285" size="0.4064" layer="25" font="vector" rot="R270"/>
+</element>
+<element name="R69" library="SparkFun" package="0603-RES" value="10k" x="34.671" y="34.036" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.7025" y="34.036" size="0.4064" layer="25" font="vector" rot="R270"/>
+</element>
+<element name="IC1" library="linear-technology" package="SOT223" value="" x="23.622" y="22.7965" smashed="yes" rot="MR180">
 <attribute name="OC_NEWARK" value="57M2069" x="23.622" y="22.7965" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="LT1129CST-5#PBF" x="23.622" y="22.7965" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="" x="23.622" y="22.7965" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="1663375" x="23.622" y="22.7965" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="19.177" y="20.5232" size="1.016" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="28.4988" y="26.0985" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="Q1" library="transistor-small-signal" package="SOT23" value="BSS123" x="38.862" y="40.8305" rot="R90"/>
-<element name="Q2" library="transistor-small-signal" package="SOT23" value="BSS123" x="38.862" y="44.2595" rot="R90"/>
-<element name="R4" library="SparkFun" package="0603-RES" value="10k" x="43.2435" y="40.8305"/>
-<element name="R8" library="SparkFun" package="0603-RES" value="10k" x="43.2435" y="44.2595"/>
-<element name="R9" library="SparkFun" package="0603-RES" value="10k" x="34.671" y="44.2595" rot="R180"/>
-<element name="R10" library="SparkFun" package="0603-RES" value="10k" x="34.671" y="40.8305" rot="R180"/>
-<element name="R11" library="resistor" package="R0603" value="10k" x="16.383" y="42.7355" rot="MR180"/>
-<element name="R12" library="resistor" package="R0603" value="10k" x="13.7795" y="1.5875"/>
+<element name="Q1" library="transistor-small-signal" package="SOT23" value="BSS123" x="38.862" y="40.8305" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.0205" y="40.132" size="0.8128" layer="25" rot="R90"/>
+</element>
+<element name="Q2" library="transistor-small-signal" package="SOT23" value="BSS123" x="38.862" y="44.2595" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.0205" y="43.4975" size="0.8128" layer="25" rot="R90"/>
+</element>
+<element name="R4" library="SparkFun" package="0603-RES" value="10k" x="43.2435" y="40.8305" smashed="yes">
+<attribute name="NAME" x="42.926" y="41.91" size="0.4064" layer="25" font="vector"/>
+</element>
+<element name="R8" library="SparkFun" package="0603-RES" value="10k" x="43.2435" y="44.2595" smashed="yes">
+<attribute name="NAME" x="42.926" y="45.2755" size="0.4064" layer="25" font="vector"/>
+</element>
+<element name="R9" library="SparkFun" package="0603-RES" value="10k" x="34.671" y="44.2595" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.02" y="43.307" size="0.4064" layer="25" font="vector" rot="R90"/>
+</element>
+<element name="R10" library="SparkFun" package="0603-RES" value="10k" x="34.671" y="40.8305" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.7025" y="40.9575" size="0.4064" layer="25" font="vector" rot="R270"/>
+</element>
+<element name="R11" library="resistor" package="R0603" value="10k" x="16.383" y="42.7355" smashed="yes" rot="MR180">
+<attribute name="NAME" x="14.605" y="45.1485" size="1.27" layer="26" rot="MR180"/>
+</element>
+<element name="R12" library="resistor" package="R0603" value="10k" x="13.7795" y="1.5875" smashed="yes">
+<attribute name="NAME" x="12.065" y="0.8255" size="0.6096" layer="25" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="5-GND">

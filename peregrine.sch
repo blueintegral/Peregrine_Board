@@ -26403,7 +26403,7 @@ type 0309, grid 2.5 mm</description>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="C14" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
-<part name="JTAG_THRU" library="SparkFun" deviceset="M08" device="LOCK"/>
+<part name="JTAG" library="SparkFun" deviceset="M08" device="LOCK"/>
 <part name="SJ5" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ6" library="jumper" deviceset="SJ" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
@@ -26662,7 +26662,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="VALUE" x="-23.876" y="-25.019" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="1" x="-15.24" y="-43.18"/>
-<instance part="JTAG_THRU" gate="G$1" x="124.46" y="83.82" rot="R180"/>
+<instance part="JTAG" gate="G$1" x="124.46" y="83.82" rot="R180"/>
 <instance part="SJ5" gate="1" x="231.14" y="48.26"/>
 <instance part="SJ6" gate="1" x="231.14" y="43.18"/>
 <instance part="P+10" gate="1" x="35.56" y="12.7" smashed="yes">

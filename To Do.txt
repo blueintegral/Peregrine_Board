@@ -16,7 +16,6 @@ Dylan:
 -pi +5v -> +5v
 
 Hunter:
--Silkscreen
 -Confirm Mech.
 -Serial Directionality Check
 -Ground Copper
