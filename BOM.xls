@@ -1,0 +1,87 @@
+Partlist
+
+Exported from peregrine.sch at 12/13/2012 1:08:16 AM
+
+EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part      Value              Device             Package             Library                 Sheet
+
+C1        0.1uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C2        0.1uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C3        4.7uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C4        0.22uF             CAP0402-CAP        0402-CAP            SparkFun                1
+C5        0.1uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C6        2.2nF              CAP0402-CAP        0402-CAP            SparkFun                1
+C7        0.1uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C8        10nF               CAP0402-CAP        0402-CAP            SparkFun                1
+C9        0.1uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C10       0.1uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C11       4.7uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C12       4.7uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C13       0.1uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C14       0.1uF              CAP0402-CAP        0402-CAP            SparkFun                1
+C21       100n               C-EUC0603          C0603-ROUND         SmartPrj                1
+C23       1uF                C-EUC0603          C0603-ROUND         SmartPrj                1
+C24       1uF                C-EUC0603          C0603-ROUND         SmartPrj                1
+C26       100n               C-EUC0603          C0603-ROUND         SmartPrj                1
+C27       10u                CPOL-EUSMCB        SMC_B               rcl                     1
+C28       100n               C-EUC0603          C0603-ROUND         SmartPrj                1
+C31       22p                C-EUC0603          C0603-ROUND         SmartPrj                1
+C32       22p                C-EUC0603          C0603-ROUND         SmartPrj                1
+D2        CD1206-S01575      DIODE-MINIMELF     MINIMELF            diode                   1
+F1        MF-MSMF050-2 500mA L-EUL1812          L1812               rcl                     1
+GPS       EM408_CON          EM408_CON          EM408_CON           SparkFun                1
+IC1                          LT1129CST5         SOT223              linear-technology       1
+ICSP      ICSP               PINHD-2X3          2X03                SmartPrj                1
+J1        USB MICRO          MYCON2_USB-MINI-B  CON2_USB_MICRO_B_AT SmartPrj                1
+JP1                          PINHD-2X3          2X03                pinhead                 1
+JP2                          PINHD-2X3          2X03                pinhead                 1
+JP4                          PINHD-2X3          2X03                pinhead                 1
+JP5                          PINHD-2X13         2X13                pinhead                 1
+JTAG                         M08LOCK            1X08_LOCK           SparkFun                1
+L         Yellow             LEDCHIPLED_0805    CHIPLED_0805        led                     1
+L1        MH2029-300Y        WE-CBF_0805        0805                wuerth-elektronik       1
+L2        MH2029-300Y        WE-CBF_0805        0805                wuerth-elektronik       1
+ON        Green              LEDCHIPLED_0805    CHIPLED_0805        led                     1
+Q1        BSS123             BSS123             SOT23               transistor-small-signal 1
+Q2        BSS123             BSS123             SOT23               transistor-small-signal 1
+Q10       BSS123             BSS123             SOT23               transistor-small-signal 1
+Q11       BSS123             BSS123             SOT23               transistor-small-signal 1
+R1        4.7K               RESISTOR0402-RES   0402-RES            SparkFun                1
+R2        4.7K               RESISTOR0402-RES   0402-RES            SparkFun                1
+R4        10k                RESISTOR0603-RES   0603-RES            SparkFun                1
+R5        1M                 R-EU_R0603         R0603-ROUND         SmartPrj                1
+R6        NM                 R-EU_R0603         R0603-ROUND         SmartPrj                1
+R7        NM                 R-EU_R0603         R0603-ROUND         SmartPrj                1
+R8        10k                RESISTOR0603-RES   0603-RES            SparkFun                1
+R9        10k                RESISTOR0603-RES   0603-RES            SparkFun                1
+R10       10k                RESISTOR0603-RES   0603-RES            SparkFun                1
+R11       10k                R-US_R0603         R0603               resistor                1
+R12       10k                R-US_R0603         R0603               resistor                1
+R66       10k                RESISTOR0603-RES   0603-RES            SparkFun                1
+R67       10k                RESISTOR0603-RES   0603-RES            SparkFun                1
+R68       10k                RESISTOR0603-RES   0603-RES            SparkFun                1
+R69       10k                RESISTOR0603-RES   0603-RES            SparkFun                1
+REC                          M06SIP             1X06                SparkFun                1
+REC_POWER                    M02PTH             1X02                SparkFun                1
+RESET     TS42               TS42               TS42                SmartPrj                1
+RN2       1K                 4R-NCAY16          CAY16               resistor-dil            1
+RN3       22R                4R-NCAY16          CAY16               resistor-dil            1
+RX        Yellow             LEDCHIPLED_0805    CHIPLED_0805        led                     1
+SJ1                          SJ                 SJ                  jumper                  1
+SJ5                          SJ                 SJ                  jumper                  1
+SJ6                          SJ                 SJ                  jumper                  1
+SJ7                          SOLDERJUMPER_2WAYS SJ_3                SparkFun                1
+SJ8                          SOLDERJUMPER_2WAYS SJ_3                SparkFun                1
+TX        Yellow             LEDCHIPLED_0805    CHIPLED_0805        led                     1
+U$2       HMC5883LSMD        HMC5883LSMD        16LPCC              SparkFun                1
+U$3       BMP085             BMP085             BMP085              SparkFun                1
+U$4       BMP085             BMP085             BMP085              SparkFun                1
+U1        ITG-3200           ITG-3200           QFN-24              SparkFun                1
+U2        ADXL345            ADXL345            LGA14               SparkFun                1
+U5        ATMEGA32U4-XUAU    ATMEGA32U4-XUAU    TQFP44-PAD          SmartPrj                1
+Y1        16MHz KX-7         CRYSTAL-3.2-2.5    CRYSTAL-3.2-2.5     SmartPrj                1
+Z1        CG0603MLC-05E      VARISTORCN0603     CT/CN0603           varistor                1
+Z2        CG0603MLC-05E      VARISTORCN0603     CT/CN0603           varistor                1
