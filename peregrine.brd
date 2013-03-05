@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -117,11 +117,6 @@
 <board>
 <plain>
 <wire x1="55.88" y1="0" x2="55.88" y2="15.0495" width="0" layer="20"/>
-<wire x1="55.88" y1="15.0495" x2="55.88" y2="15.4305" width="0" layer="20"/>
-<wire x1="55.88" y1="15.4305" x2="55.88" y2="55.88" width="0" layer="20"/>
-<wire x1="55.88" y1="55.88" x2="0" y2="55.88" width="0" layer="20"/>
-<wire x1="0" y1="55.88" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="0" x2="43.688" y2="0" width="0" layer="20"/>
 <text x="25.146" y="23.9014" size="1.016" layer="25" font="vector" ratio="12" rot="R90">TX</text>
 <text x="23.495" y="23.9522" size="1.016" layer="25" font="vector" ratio="12" rot="R90">RX</text>
 <text x="18.8214" y="20.8788" size="1.016" layer="25" font="vector" ratio="12" rot="R90">PWR</text>
@@ -139,8 +134,8 @@
 <text x="34.4424" y="16.0528" size="1.016" layer="25" font="vector" ratio="12">Y</text>
 <text x="11.9634" y="11.1506" size="1.016" layer="25" font="vector" ratio="12">CA</text>
 <text x="16.7132" y="16.51" size="1.016" layer="25" font="vector" ratio="12" rot="R90">CB</text>
-<text x="25.4254" y="14.1986" size="1.016" layer="25" font="vector" ratio="12" rot="R90">CB</text>
-<text x="29.2862" y="14.1478" size="1.016" layer="25" font="vector" ratio="12" rot="R90">CD</text>
+<text x="29.1719" y="14.1986" size="1.016" layer="25" font="vector" ratio="12" rot="R90">CB</text>
+<text x="25.4762" y="14.4018" size="1.016" layer="25" font="vector" ratio="12" rot="R90">CD</text>
 <text x="29.5656" y="12.6492" size="1.016" layer="25" font="vector" ratio="12" rot="R180">CD</text>
 <text x="39.1922" y="12.6492" size="1.016" layer="25" font="vector" ratio="12" rot="R180">CD</text>
 <text x="43.3705" y="18.1356" size="1.016" layer="25" font="vector" ratio="12" rot="R180">CD</text>
@@ -185,13 +180,10 @@ RC-22</text>
 <text x="25.6032" y="47.244" size="1.4224" layer="25" font="vector" ratio="12">Jan 2013</text>
 <text x="6.35" y="45.974" size="1.4224" layer="25" font="vector" ratio="12">AUX</text>
 <text x="7.5946" y="38.2016" size="1.4224" layer="25" font="vector" ratio="12" rot="R90">ICSP</text>
-<wire x1="0" y1="0" x2="26.924" y2="0" width="0.254" layer="20"/>
-<wire x1="26.924" y1="0" x2="43.688" y2="0" width="0.254" layer="20"/>
+<wire x1="0" y1="0" x2="43.688" y2="0" width="0.254" layer="20"/>
 <wire x1="43.688" y1="0" x2="43.688" y2="15.0495" width="0.254" layer="20"/>
-<wire x1="43.688" y1="15.0495" x2="44.3865" y2="15.0495" width="0.254" layer="20"/>
-<wire x1="44.3865" y1="15.0495" x2="55.88" y2="15.0495" width="0.254" layer="20"/>
-<wire x1="55.88" y1="15.0495" x2="55.88" y2="15.4305" width="0.254" layer="20"/>
-<wire x1="55.88" y1="15.4305" x2="55.88" y2="55.88" width="0.254" layer="20"/>
+<wire x1="43.688" y1="15.0495" x2="55.88" y2="15.0495" width="0.254" layer="20"/>
+<wire x1="55.88" y1="15.0495" x2="55.88" y2="55.88" width="0.254" layer="20"/>
 <wire x1="55.88" y1="55.88" x2="0" y2="55.88" width="0.254" layer="20"/>
 <wire x1="0" y1="55.88" x2="0" y2="0" width="0.254" layer="20"/>
 <text x="13.0048" y="17.5006" size="1.016" layer="25" font="vector" ratio="12" rot="R180">RC</text>
